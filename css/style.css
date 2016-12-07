@@ -1,0 +1,78 @@
+@font-face {
+  font-family: 'Great Vibes';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Great Vibes'), local('GreatVibes-Regular'), url(../fonts/GreatVibes-Regular.otf);
+}
+
+html {
+  background: url(../img/latium.jpg) center center fixed no-repeat;
+  background-size: cover;
+  font-size: 1.2em;
+  text-align: justify;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Great Vibes', cursive;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: 5.5em;
+  font-weight: normal;
+}
+
+h2 {
+  font-size: 4em;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+a {
+  color: #563E2B;
+}
+
+a:visited {
+  color: #000;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.8em;
+  border-top: 1px solid black;
+}
+
+.wrap {
+  width: 790px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.7);
+  padding: 30px;
+  padding-top: 0;
+  margin-bottom: 30px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.wrap header img {
+  height: auto;
+  background: #fff;
+}
+
+.wrap ol li {
+  margin-bottom: 1em;
+}
+
+.oversize {
+  width: 880px;
+  padding: 15px;
+  margin-left: -60px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+  background: #A57955;
+}
+
+.info {
+    font-style: italic;
+}
